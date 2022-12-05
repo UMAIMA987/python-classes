@@ -1,0 +1,16 @@
+#      STRING ACCESS AND CHECK SPACES USING DIFFERENT METHODS
+a="python "
+print(a[0:7])
+print(a[-2])
+print(a[0:7:2])
+
+
+#how to check spaces in variable/code
+#method 1
+x=(a[0:7:2])
+print(x)
+print(x[3])
+#method 2
+print(len(x))
+#method 2
+print("" in x)
