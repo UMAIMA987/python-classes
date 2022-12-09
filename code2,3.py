@@ -7,3 +7,5 @@ if z == 0:
     print("Divisible by each other")
 else:
     print("Not divisible")    
+
+
