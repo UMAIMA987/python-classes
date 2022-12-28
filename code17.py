@@ -2,19 +2,19 @@
 #================toughest one=========================
 
 x=input("Enter your first and last name :  ")
-y=len(x)
+y=len(x)-1
 print(y)
 
 # =========without loop==========
-print(x[len(x): :-1])
+# print(x[len(x): :-1])
 
 
 
 #==============with loops=========
-z=-1
-for i in range (y,0,-1):
-   print(x[z],end=" ")   # bht mushkil se chalaya ha isko
-   z=z-1
+
+for i in range (y,-1,-1):
+   print(x[i],end=" ")   # bht mushkil se chalaya ha isko
+   
 
 
 # ===============practice code============
