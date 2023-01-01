@@ -6,6 +6,9 @@ print(r)
 area=3.142*(r**2)
 print(int(area))
 
+
+
+
 #==========PROGRAM 2 ==================
 
 x=int(input("type a number :"))
